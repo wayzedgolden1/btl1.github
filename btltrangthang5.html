@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quản lý tài chính cá nhân</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"> </script>
+    
+</head>
+<link rel="stylesheet"  href="cssbtltrangmuaha.css" type="text/css">
+<script src="jstest.js"></script> 
+<body>
+    <header>
+    <div class="row">
+      <div class="col-sm-1 col-1"></div>
+      <div class="col-sm-5 col-1">
+        <a href="btltrangtinh.html"><img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/fees-11-484517.png" width="85" height="75"></a>
+      </div>
+      <br>
+    </div>
+    </header><br><br><br><br><br>
+    <h1 align="center">
+        <font size="6" color="ffffff"><font size="7" color="38ab6e">Chỉ có làm, chịu khó, cần cù</font> thì bù <font size="7" color="38ab6e">siêng năng.</font><br>
+        <font size="7" color="38ab6e">Chỉ có làm</font> thì mới có <font size="7" color="38ab6e">ăn</font>.</font>
+    </h1>
+    <br><br><br>
+    <div class="row">
+        <div class="col-sm-2 col-1"></div>
+        <div class="col-sm-6 col-12 ">
+            <table align="left" border="1">
+                <tr align="left">
+                    <div class="bangnam" align="left">
+                    <font size="5" color="#21562e" ><b id="ketqua">Số dư tài khoản trong tháng này : </b></font>
+                    </div><br><br>
+                </tr>
+            </table>
+        </div>    
+        <div class="col-sm-4 col-12 ">
+                <div class="bangthang">
+                    <div class="node">
+                        <div class="dropdown">
+                        <a href="" class=" dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <font size="4"><b>Chọn tháng</b></font>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="btltrangthang4.html">Tháng 4</a></li>
+                            <li><a class="dropdown-item" href="btltrangthang5.html">Tháng 5</a></li>
+                            <li><a class="dropdown-item" href="btltrangthang6.html">Tháng 6</a></li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+        </div><br><br><br>
+        <div class="col-sm-2 col-12"></div>
+        <div class="col-sm-8 col-12 ">
+            <table id="bangthang">
+                <tr>
+                    <div class="bangnam">
+                        <font size="5" color="#21562e" ><b>Tháng 5</b></font><br><br>
+                            <div class="row loginForm">
+
+                                <div class="col-sm-1 col-12"></div>
+                                <div class="col-sm-3 col-12">
+                                    <label for="thang"><b>Thu nhập tháng này :</b></label><br><br>
+                                    <label for="dotxuat"><b>Thu nhập đột xuất :</b></label><br><br>
+                                    <label for="chitieu"><b>Chi tiêu tháng này :</b></label>
+                                </div>
+                                <div class="col-sm-4 col-12">
+                                    <input type="number" id="thang" placeholder="VNĐ"><br><br>
+                                    <input type="number" id="dotxuat" placeholder="VNĐ"><br><br>
+                                    <input type="number" id="chitieu" placeholder="VNĐ"><br><br>
+                                </div>
+
+                                <div class="col-sm-4 col-12"></div>
+                        
+                                <div class="col-sm-3 col-12"></div>
+                                <div class="col-sm-5 col-12" align="left">
+                                <button onclick="tinhtoan()">Tính toán</button>
+                                </div>
+                                <div class="col-sm-4 col-12"></div>
+                          </div>
+                    </div>
+                </tr>
+            </table>
+        </div>
+        <div class="col-sm-2 col-12"></div>
+
+    </div>
+
+
+</body> 

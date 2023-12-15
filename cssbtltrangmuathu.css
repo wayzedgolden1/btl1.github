@@ -1,0 +1,89 @@
+
+.tuyetroi{
+    position: absolute;left: 0px;top: 0px;
+    padding-left:15px;
+    font-size:18px;
+    line-height:24px;
+    position:fixed;
+    color:#ebebeb;
+    user-select:none;
+    z-index:1000;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none;
+    -webkit-touch-callout:none;
+
+    -webkit-animation: ny 5000ms infinite;
+        -moz-animation: ny 5000ms infinite;
+        -o-animation: ny 5000ms infinite;
+        animation: ny 5000ms infinite;
+    }
+.tuyetroi:hover{cursor:default;}
+.row .node a{
+    text-decoration: none;
+    color: #002802;
+    padding: 0px 15px 0px 15px;
+    line-height: 50px;
+    display: block;
+    border-radius: 10px;
+    text-size-adjust: 10px;
+
+}
+.node a:hover{
+
+    color: #b7acac;
+}
+
+header{
+    background-color: rgb(57, 119, 70);
+}
+body{
+    background-color: #000000;
+}
+.submenu{
+    width: 180px;
+    background-color: rgb(57, 136, 106);
+    color: palevioletred;
+    min-height: 80px;
+    display: none;
+}
+.submenu li a.dropdown-item{
+    color: rgb(29, 185, 149);
+    display: block;
+    text-align: 20px;
+}
+.node:hover .submenu {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    position: absolute;
+    list-style-type: none;
+
+}
+.submenu li a .dropdown-item:hover {
+    background-color: rgb(81, 146, 96);
+    color: rgb(77, 144, 115);
+}
+
+.bangnam{
+    width: 100%;
+    padding: 1em;
+    background-color: #74a99b;
+    border-radius: 10px;
+}
+.bangthang{
+    width: 50%;
+
+    background-color: #74a99b;
+    border-radius: 10px;
+}
+.loginForm input {
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.loginForm button {
+    border-radius: 5px;
+}
+
+

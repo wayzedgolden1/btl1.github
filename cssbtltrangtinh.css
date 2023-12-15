@@ -1,0 +1,89 @@
+header{
+    background-color: rgb(57, 119, 70);
+}
+body{
+    background-color: #000000;
+
+}
+.row .node a{
+    text-decoration: none;
+    color: #002802;
+    padding: 0px 15px 0px 15px;
+    line-height: 50px;
+    display: block;
+    border-radius: 10px;
+    text-size-adjust: 10px;
+
+}
+
+.node a:hover{
+
+    color: #b7acac;
+}
+
+.submenu{
+    width: 180px;
+    background-color: rgb(57, 136, 106);
+    color: palevioletred;
+    min-height: 80px;
+    display: none;
+}
+.submenu li a.dropdown-item{
+    color: rgb(29, 185, 149);
+    display: block;
+    text-align: 20px;
+}
+.node:hover .submenu {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    position: absolute;
+    list-style-type: none;
+
+}
+.submenu li a .dropdown-item:hover {
+    background-color: rgb(81, 146, 96);
+    color: rgb(77, 144, 115);
+}
+hr{
+    color: black;
+   
+}
+.bangnam{
+    width: 100%;
+    padding: 1em;
+    background-color: #e5f2e8;
+    border-radius: 10px;
+
+
+}
+
+.location-listing{
+    position: relative;
+    padding: 1em;
+}
+.location-title{
+    font-size: 1.5em;
+    font-weight: bold;
+    z-index: 1;
+    position: absolute;
+    width: 100%;height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background: rgba(0, 20, 90, 0.4);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+
+}
+.location-image img{
+    border-radius: 10px;
+}
+.location-listing:hover .location-title{opacity: 1;}
+.location-listing:hover .location-image img{
+    filter: blur(2px);
+}
+

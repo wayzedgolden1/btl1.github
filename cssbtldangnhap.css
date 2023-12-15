@@ -1,0 +1,67 @@
+header{
+    background-color: rgb(248, 253, 249);
+
+}
+body{
+    background-color: rgb(217, 239, 223);
+
+}
+.row .node a{
+    text-decoration: none;
+    color: #000000;
+    padding: 0px 15px 0px 15px;
+    line-height: 50px;
+    display: block;
+    border-radius: 10px;
+    text-size-adjust: 10px;
+
+}
+.node a:hover{
+
+    color: #2faa5c;
+}
+
+.submenu{
+    width: 180px;
+    background-color: rgb(57, 136, 106);
+    color: palevioletred;
+    min-height: 80px;
+    display: none;
+}
+.submenu li a{
+    color: rgb(29, 185, 149);
+    display: block;
+    text-align: 20px;
+}
+.node:hover .submenu {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    position: absolute;
+    list-style-type: none;
+
+}
+.submenu li a:hover {
+    background-color: rgb(81, 146, 96);
+    color: rgb(255, 255, 255);
+}
+hr{
+    color: black;
+   
+}
+footer{
+    background-color:rgb(248, 253, 249) ;
+    text-emphasis-color: rgb(167, 222, 173);
+}
+
+
+.loginForm input {
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.loginForm button {
+    border-radius: 5px;
+}
+
+
+
